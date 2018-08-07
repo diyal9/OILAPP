@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">菜鸟加油站</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <!-- 1.0新增 -->
+    <string name="collect_text">收藏</string>
+    <string name="dynamic_text">动态</string>
+    <string name="gas_station_text">加油站</string>
+    <string name="gas_station_price">实时油价</string>
+    <string name="gas_station_costrecord">消费记录</string>
+    <string name="mine_text">我的</string>
+    <string name="two_dimension_code_title">扫一扫</string>
+    <string name="gas_station_list_title">菜鸟加油站</string>
+    <string name="set_title">设置</string>
+    <string name="mine_message_title">我的消息</string>
+    <string name="gas_station_details_title">加油站详情</string>
+    <string name="about_title">加油站详情</string>
+    <string name="flicking_a_title">扫一扫</string>
+    <string name="opinion_tickling_title">意见反馈</string>
+    <string name="mine_information_title">我的资料</string>
+    <string name="registered_title">我的资料</string>
+    <string name="favorite">关注</string>
+    <string name="gasoil_station">汽油站</string>
+    <string name="dieseloil_station">柴油站</string>
+    <string name="oil_prite_txt">%1$s：￥%2$2.2f(国家牌价：￥%3$2.2f，优惠￥%4$2.2f元/升)</string>
+
+    <!-- 上拉刷新 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- 导航 -->
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="app_id">输入您讯飞的appid</string>
+    <string name="start_title">示例代码</string>
+    <string name="base_function">基本功能</string>
+    <string name="hud_title">HUD显示</string>
+    <string name="navibar_title">路径规划</string>
+    <string name="navi_car">驾车</string>
+    <string name="navi_foot">步行</string>
+    <string name="start_hud_navi">HUD显示</string>
+    <string name="complex_function">综合展示</string>
+    <string name="navi_empty_car">"驾   车"</string>
+    <string name="navi_empty_foot">"步   行"</string>
+    <string name="navi_start">"起    点"</string>
+    <string name="navi_middle">途经点</string>
+    <string name="navi_end">"终    点"</string>
+    <string name="navi_strategy">"策    略"</string>
+    <string name="navi_route">路径规划</string>
+    <string name="navi_navi">模拟导航</string>
+    <string name="start_navi_navi">实时导航</string>
+    <string name="navi_strategy_speed">速度最快</string>
+    <string name="navi_strategy_cost">避免收费</string>
+    <string name="navi_strategy_distance">距离最短</string>
+    <string name="navi_strategy_nohighway">不走高速快速路</string>
+    <string name="navi_strategy_timenojam">时间最短且躲避拥堵</string>
+    <string name="navi_strategy_costnojam">避免收费且躲避拥堵</string>
+    <string name="theme_blue">经典蓝</string>
+    <string name="theme_pink">可爱粉</string>
+    <string name="theme_white">简约白</string>
+    <string name="setting">设置</string>
+    <string name="day">白天</string>
+    <string name="night">夜间</string>
+    <string name="yes">"  是  "</string>
+    <string name="no">"  否  "</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="daynightmode">"昼夜模式    "</string>
+    <string name="deviationrecalculation">"偏航重算    "</string>
+    <string name="jamrecalculation">"拥堵重算    "</string>
+    <string name="trafficbroadcast">"交通播报    "</string>
+    <string name="camerabroadcast">摄像头播报</string>
+    <string name="screenon">"屏幕常亮    "</string>
+    <string name="routeshow">线路展示</string>
+    <string name="tapmap">点击地图设置</string>
+    <string name="starttapmap">我的位置（可点击地图设置）</string>
+    <string name="walkdescription">步行状态不可用</string>
+    <string name="routeinfo">全程   --公里/--分钟    收费 --元</string>
+    <string name="routeinfo_1">全程 </string>
+    <string name="routeinfo_2">公里/</string>
+    <string name="routeinfo_3">"分钟    收费"</string>
+    <string name="routeinfo_4">元</string>
+    <string name="routeinfo_default">--</string>
+    <string name="mypoistion">我的位置</string>
+    <string name="mappoistion">地图点选</string>
+    <string name="positioninfo">位置信息</string>
+
+    <!-- 安全支付 -->
+    <string name="activity_remote_service_binding">AppDemo4</string>
+    <string name="remote_call_failed">Failure calling remote service</string>
+    <string name="partnerHint">"partner"</string>
+    <string name="sellerHint">"seller"</string>
+    <string name="out_trade_noHint">"out_trade_no"</string>
+    <string name="subjectHint">"subject"</string>
+    <string name="bodyHint">"body"</string>
+    <string name="total_feeHint">"total_fee"</string>
+    <string name="notify_urlHint">"notify_url"</string>
+    <string name="charsetHint">"charset"</string>
+    <string name="signTypeHint">"signType"</string>
+    <string name="confirm_install_hint">"安装提示"</string>
+    <string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string>
+    <string name="Ensure">"确定"</string>
+    <string name="Cancel">"取消"</string>
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+
+    <!-- 扫描模块 -->
+    <string name="scan_result_orderid">订单号:</string>
+    <string name="scan_result_address">地址:</string>
+    <string name="scan_result_gas">加油站:</string>
+    <string name="scan_result_gasType">油品:</string>
+    <string name="scan_result_price">单价:</string>
+    <string name="scan_result_num">数量:</string>
+    <string name="scan_result_amount">金额:</string>
+    <string name="scan_result_pay">支付</string>
+    <string name="scan_result_recharge">充值</string>
+
+    <!-- 油站详情 -->
+    <string name="detail_IWBUY">我要下单</string>
+    <string name="detail_otherfee">其他优惠:</string>
+    <string name="detail_CONFIRMBUY">确认下单</string>
+    <string name="detail_order_time">订单时间:</string>
+    <string name="detail_carno">车    牌:</string>
+    <string name="detail_phoneno">手机号码:</string>
+    <string name="detail_invoicetype">发票类型:</string>
+    <string name="detail_invoicetitle">发票抬头:</string>
+    <string name="detail_mayfee">选择油号:</string>
+    <string name="detail_unitprie">单    价:</string>
+    <string name="detail_mayoil">消费金额:</string>
+    <string name="detail_mayoilnum">预计油量:</string>
+    <string name="detail_amount">余    额:</string>
+
+</resources>

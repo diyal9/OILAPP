@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    android:orientation="vertical" >
+
+    <include layout="@layout/general_title" />
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:id="@+id/bottonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/home_curgasprice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/title_bar_main_press_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/positioning" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gas_station_price"
+                android:textColor="@color/white_setting_shadow_color"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_costrecord"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/title_bar_main_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/subscribe" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gas_station_costrecord"
+                android:textColor="@color/white_setting_shadow_color"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/title_bar_main_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="3dp"
+                android:src="@drawable/my" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mine_text"
+                android:textColor="@color/white_setting_shadow_color"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

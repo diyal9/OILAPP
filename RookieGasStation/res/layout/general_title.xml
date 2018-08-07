@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/title_bar_main_color"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/location_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="定位中.."
+        android:textColor="#ffffffff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/head_separator" />
+
+    <TextView
+        android:id="@+id/general_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/gas_station_price"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/fit_font_banner" />
+
+    <ImageView
+        android:id="@+id/general_scan_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:padding="15dp" />
+
+</LinearLayout>

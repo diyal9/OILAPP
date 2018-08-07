@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_bar_main_color">#ffa31a</color>
+    <color name="title_bar_main_press_color">#ffb31a</color>
+    <color name="setting_shadow_color">#f6f6f6</color>
+    <color name="division_line_color">#d5d5d5</color>
+    <color name="white_setting_shadow_color">#ffffff</color>
+    <color name="title_bar_typeface_color">#333333</color>
+    <color name="text_title_color">#6e6e6e</color>
+    <color name="text_content_color">#8f8f8f</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <drawable name="tweet_meta_color">#FF999999</drawable>
+
+</resources>

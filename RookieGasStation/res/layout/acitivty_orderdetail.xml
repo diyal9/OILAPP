@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_shadow_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/func_general_title" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="287dp"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_weight="0.79"
+        android:background="@drawable/panel_bg"
+        android:orientation="vertical"
+        android:paddingBottom="0dip" >
+
+        <LinearLayout
+            android:id="@+id/scan_3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1.30"
+                android:text="@string/detail_carno"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <EditText
+                android:id="@+id/detail_carno"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="3.34"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/detail_phoneno"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <EditText
+                android:id="@+id/detail_phoneno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/detail_invoicetype"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <Spinner
+                android:id="@+id/detail_invoicetype"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/detail_invoicetitle"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <EditText
+                android:id="@+id/detail_invoicetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/detail_mayfee"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <Spinner
+                android:id="@+id/detail_oilchange"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/detail_mayoil"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <EditText
+                android:id="@+id/detail_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/scan_pay"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_orange"
+            android:gravity="center"
+            android:text="@string/detail_CONFIRMBUY"
+            android:textColor="@color/white_setting_shadow_color"
+            android:textSize="@dimen/fit_font_title" />
+
+    </TableLayout>
+
+</LinearLayout>

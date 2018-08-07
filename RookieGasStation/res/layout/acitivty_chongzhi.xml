@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_shadow_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/func_general_title" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="287dp"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_weight="0.79"
+        android:background="@drawable/panel_bg"
+        android:orientation="vertical"
+        android:paddingBottom="0dip" >
+
+        <LinearLayout
+            android:id="@+id/scan_3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1.30"
+                android:text="商品名称"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/cz_goodsname"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="3.34"
+                android:text="菜鸟油卡充值"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1.80"
+                android:text="描述"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/cz_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1.60"
+                android:gravity="center_horizontal"
+                android:text="用于加油站加油"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/detail_mayoil"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <EditText
+                android:id="@+id/detail_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="2.26"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="元"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mine_pay"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_orange"
+            android:gravity="center"
+            android:text="支付"
+            android:textColor="@color/white_setting_shadow_color"
+            android:textSize="@dimen/fit_font_title" />
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    android:orientation="vertical" >
+
+    <include layout="@layout/func_general_title" />
+
+    <LinearLayout
+        android:id="@+id/OilChoiceLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gas_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gas_station_price"
+        android:textColor="@color/title_bar_main_press_color"
+        android:textSize="@dimen/fit_font_angle" />
+
+    <TextView
+        android:id="@+id/gas_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gas_station_price"
+        android:textColor="@color/title_bar_main_press_color"
+        android:textSize="@dimen/fit_font_angle" />
+
+    <TextView
+        android:id="@+id/gas_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gas_station_price"
+        android:textColor="@color/title_bar_main_press_color"
+        android:textSize="@dimen/fit_font_angle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/division_line_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/main_margin"
+        android:background="@color/division_line_color" />
+
+    <LinearLayout
+        android:id="@+id/mine_message"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/gray"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/main_margin"
+            android:src="@drawable/details_location" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/main_margin"
+            android:text="@string/scan_result_address"
+            android:textColor="#000000"
+            android:textSize="@dimen/fit_font_title" />
+
+        <TextView
+            android:id="@+id/detail_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/main_margin"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="@dimen/fit_font_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mine_message"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/gray"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/main_margin"
+            android:text="@string/detail_otherfee"
+            android:textColor="#000000"
+            android:textSize="@dimen/fit_font_title" />
+
+        <TextView
+            android:id="@+id/detail_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/main_margin"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="@dimen/fit_font_title" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/division_line_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/main_margin"
+        android:background="@color/division_line_color" />
+
+    <LinearLayout
+        android:id="@+id/orderok"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/main_margin"
+        android:layout_marginRight="@dimen/main_margin"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_orange" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:text="@string/detail_IWBUY"
+            android:textColor="@color/white_setting_shadow_color"
+            android:textSize="@dimen/fit_font_title" />
+    </LinearLayout>
+
+</LinearLayout>

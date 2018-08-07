@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_shadow_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/general_title" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/panel_bg"
+        android:orientation="vertical"
+        android:paddingBottom="10.0dip" >
+
+        <LinearLayout
+            android:id="@+id/scan_1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/scan_result_orderid"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/scan_orderid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/scan_result_gas"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/scan_gas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/scan_result_address"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/scan_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/scan_result_gasType"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/gasType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/scan_result_price"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/scan_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/scan_result_num"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/scan_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/software_detail_os_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_apply_item_spilit" />
+
+        <LinearLayout
+            android:id="@+id/scan_7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/gray"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="1"
+                android:text="@string/scan_result_amount"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+
+            <TextView
+                android:id="@+id/scan_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_margin"
+                android:layout_weight="4"
+                android:textColor="#000000"
+                android:textSize="@dimen/fit_font_title" />
+        </LinearLayout>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/scan_8"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:background="@drawable/gray"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/scan_pay"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_orange"
+            android:gravity="center"
+            android:text="@string/scan_result_pay"
+            android:textColor="@color/white_setting_shadow_color"
+            android:textSize="@dimen/fit_font_title" />
+
+        <TextView
+            android:id="@+id/scan_resharge"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_orange"
+            android:gravity="center"
+            android:text="@string/scan_result_recharge"
+            android:textColor="@color/white_setting_shadow_color"
+            android:textSize="@dimen/fit_font_title" />
+    </LinearLayout>
+
+</LinearLayout>
